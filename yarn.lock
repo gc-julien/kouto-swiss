@@ -982,19 +982,12 @@ lodash.some@^4.4.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.some/-/lodash.some-4.6.0.tgz#1bb9f314ef6b8baded13b549169b2a945eb68e4d"
 
-lodash@^2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-
 lodash@^3.10.1, lodash@~3.10.1:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
+  integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
-lodash@^4.0.0:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
-
-lodash@^4.17.15:
+lodash@^4.0.0, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -1002,10 +995,12 @@ lodash@^4.17.15:
 lodash@~4.16.4:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.16.6.tgz#d22c9ac660288f3843e16ba7d2b5d06cca27d777"
+  integrity sha1-0iyaxmAojzhD4Wun0rXQbMon13c=
 
 lodash@~4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.3.0.tgz#efd9c4a6ec53f3b05412429915c3e4824e4d25a4"
+  integrity sha1-79nEpuxT87BUEkKZFcPkgk5NJaQ=
 
 longest@^1.0.1:
   version "1.0.1"
@@ -1254,12 +1249,12 @@ portscanner@^1.0.0:
   dependencies:
     async "1.5.2"
 
-prefiks@^0.3:
+"prefiks@https://github.com/gc-julien/prefiks.git":
   version "0.3.3"
-  resolved "https://registry.yarnpkg.com/prefiks/-/prefiks-0.3.3.tgz#9ac263ae6177eebb44cf143b2ff1178051c966e1"
+  resolved "https://github.com/gc-julien/prefiks.git#00062cd783c321d3199cc9ec8c89fda06bc7b1ae"
   dependencies:
     caniuse-db "^1.0"
-    lodash "^2.4.1"
+    lodash "^4.17.21"
     semver "^4.0.3"
 
 process-nextick-args@~1.0.6:

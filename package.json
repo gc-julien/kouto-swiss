@@ -100,8 +100,7 @@
     "node": "*"
   },
   "dependencies": {
-    "prefiks": "^0.3",
-    "lodash": "^4.17.15",
+    "prefiks": "https://github.com/gc-julien/prefiks.git",
     "stylus": "0.54.5"
   },
   "devDependencies": {
