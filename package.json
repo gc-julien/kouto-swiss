@@ -101,6 +101,7 @@
   },
   "dependencies": {
     "prefiks": "^0.3",
+    "lodash": "^4.17.15",
     "stylus": "0.54.5"
   },
   "devDependencies": {
